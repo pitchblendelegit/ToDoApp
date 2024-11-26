@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.edit-todo-container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #00796b;
+}
+
+.edit-box h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #00796b;
+}
+
+.edit-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.edit-box form label {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.edit-box form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.edit-box form input[type="text"]:focus {
+    border-color: #00796b;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 121, 107, 0.2);
+    outline: none;
+}
+
+.edit-box form button {
+    padding: 10px;
+    background-color: #00796b;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-box form button:hover {
+    background-color: #005a4f;
+}
+
+.edit-box form button:active {
+    transform: scale(0.98);
+}
+

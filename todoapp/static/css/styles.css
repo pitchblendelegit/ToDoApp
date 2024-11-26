@@ -1,0 +1,30 @@
+/* Additional Styling for Buttons and Form Enhancements */
+.btn-edit {
+    background: #0288d1; /* Biru sesuai tema */
+    color: white;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.btn-edit:hover {
+    background: #01579b; /* Biru lebih gelap untuk efek hover */
+    transform: scale(1.05);
+}
+
+/* Footer Links */
+.link {
+    color: #0288d1; /* Sesuaikan dengan tema biru */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease, text-decoration 0.2s;
+}
+
+.link:hover {
+    color: #01579b; /* Warna hover lebih gelap */
+    text-decoration: underline; /* Tambahkan efek underline */
+}
